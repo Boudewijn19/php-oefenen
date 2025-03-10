@@ -1,0 +1,197 @@
+:root {
+    --background-color: white;
+    --text-color: black;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body, title {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+body.dark-theme {
+    --background-color: black;
+    --text-color: white;
+
+}
+
+body.dark-theme .sidebar {
+    background-color: #222;
+}
+
+header, .sidebar, .main-area {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+body.dark-theme header,
+body.dark-theme .sidebar,
+body.dark-theme .main-area {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+/*Hulp van chatgpt met de css dark theme.*/
+
+#countdown {
+    display: inline-block;
+    align-items: center;
+    font-size: 50px;
+    margin: 0;
+    height: 70px;
+    width: 200px;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin: 5px 0;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: white;
+    transition: background-color 0.3s;
+}
+
+.sidebar button:hover {
+    background-color: #886c96;
+}
+
+.main-area {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #fafafa;
+    overflow-y: auto;
+}
+
+footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px;
+}/*Met docent gemaakt, en chatgpt*/
+
+.tekst {
+    margin-top: 30px;
+    width: 600px;
+}
+
+.img {
+    margin-right: 30px;
+}
+
+.Ervaring {
+    font-size: 17px;
+    width: 500px;
+}
+
+.leuk {
+    font-size: 17px;
+    width: 500px;
+}
+
+.tekstimg {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#Placeholder1 {
+    height: 20vh;
+    width: 20vw;
+    justify-content: center;
+}
+
+#td1 {
+    background-image: url("img/Placeholder-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Zorgt ervoor dat je het niet ziet op grote beeldschermen*/
+@media (max-width: 1000px) {
+    #MyLinks {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: grey;
+        height: 100vh;
+        margin: 0;
+        padding: 1em;
+        width: 7em;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        transition: 0.5s;
+        z-index: 1001;
+    }
+}
+
+#menu-toggle {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#menu-toggle img {
+    padding: 0;
+    height: 20px;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+#close-menu {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+#close-menu img {
+    padding: 0;
+    height: 20px;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}
