@@ -22,10 +22,10 @@
     <section id="MyLinks" class="hidden">
         <button id="close-menu"><img src="img/x.png" alt="Sluit menu"></button>
         <a href="Home.html">Home</a>
-        <a href="projecten.html">Projecten</a>
-        <a href="talen.html">Talen</a>
-        <a href="video.html">Interview</a>
-        <a href="Contact-Form.html">Contact</a>
+        <a href="projecten.php">Projecten</a>
+        <a href="talen.php">Talen</a>
+        <a href="video.php">Interview</a>
+        <a href="Contact-Form.php">Contact</a>
     </section>
 </section>
 
@@ -109,16 +109,16 @@
         <a href="home.html">
             <button>Wie ben ik?</button>
         </a>
-        <a href="projecten.html">
+        <a href="projecten.php">
             <button>Projecten</button>
         </a>
-        <a href="talen.html">
+        <a href="talen.php">
             <button>Talen</button>
         </a>
-        <a href="video.html">
+        <a href="video.php">
             <button>Interview</button>
         </a>
-        <a href="Contact-Form.html">
+        <a href="Contact-Form.php">
             <button>Contact</button>
         </a>
         <a>
@@ -222,12 +222,6 @@
                     </p>
 
                 </section>
-            </section>
-
-            <section class="img">
-                <a href="catmeme.html">
-                    <img src="img/Kat-foto.jpg" height="450px" width="350px">
-                </a>
             </section>
         </section>
     </section>

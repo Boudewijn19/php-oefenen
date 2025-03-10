@@ -18,16 +18,16 @@
         <a href="index.php">
             <button>Wie ben ik?</button>
         </a>
-        <a href="projecten.html">
+        <a href="projecten.php">
             <button>Projecten</button>
         </a>
-        <a href="talen.html">
+        <a href="talen.php">
             <button>Talen</button>
         </a>
         <a href="video.html">
             <button>Interview</button>
         </a>
-        <a href="Contact-Form.html">
+        <a href="Contact-Form.php">
             <button>Contact</button>
         </a>
         <a>

@@ -23,13 +23,13 @@
         <a href="projecten.html">
             <button>Projecten</button>
         </a>
-        <a href="talen.html">
+        <a href="talen.php">
             <button>Talen</button>
         </a>
-        <a href="video.html">
+        <a href="video.php">
             <button>Interview</button>
         </a>
-        <a href="Contact-Form.html">
+        <a href="Contact-Form.php">
             <button>Contact</button>
         </a>
         <a>
